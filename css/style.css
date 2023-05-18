@@ -245,3 +245,105 @@ main {
     margin: 10vh auto;
   }
 }
+
+@media screen and (max-width: 768px) {
+  main {
+    flex-direction: column;
+    margin: 5vh auto;
+    width: 90vw;
+    height: auto;
+  }
+
+  .robotron {
+    flex-basis: 100%;
+  }
+
+  .titulo {
+    bottom: 3rem;
+    left: -1rem;
+    font-size: 80px;
+  }
+
+  .box {
+    height: 60%;
+  }
+
+  .equipamentos {
+    flex-basis: 100%;
+    margin-top: 2em;
+  }
+
+  .estatisticas {
+    flex-basis: 100%;
+    padding: 2em;
+  }
+
+  .estatistica {
+    height: auto;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .estatistica-titulo {
+    flex-basis: auto;
+    text-align: center;
+    order: 0;
+    margin-bottom: 0.5em;
+  }
+
+  .estatistica-valor {
+    flex-basis: auto;
+    margin-top: 0.5em;
+  }
+}
+/* Consulta de mídia para dispositivos móveis */
+@media screen and (max-width: 480px) {
+  main {
+    flex-direction: column;
+    margin: 5vh auto;
+    width: 90vw;
+    height: auto;
+  }
+
+  .robotron {
+    flex-basis: 100%;
+  }
+
+  .titulo {
+    bottom: 3rem;
+    left: -1rem;
+    font-size: 80px;
+  }
+
+  .box {
+    height: 60%;
+  }
+
+  .equipamentos {
+    flex-basis: 100%;
+    margin-top: 2em;
+  }
+
+  .estatisticas {
+    flex-basis: 100%;
+    padding: 2em;
+  }
+
+  .estatistica {
+    height: auto;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .estatistica-titulo {
+    flex-basis: auto;
+    text-align: center;
+    order: 0;
+    margin-bottom: 0.5em;
+  }
+
+  .estatistica-valor {
+    flex-basis: auto;
+    margin-top: 0.5em;
+  }
+}
