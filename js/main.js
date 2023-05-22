@@ -57,3 +57,10 @@ function atualizaEstatistica(peca) {
       pecas[peca][elemento.dataset.estatistica];
   });
 }
+function addAnimation() {
+  var button = document.getElementById("producao");
+  button.classList.add("animation");
+  setTimeout(function() {
+    button.classList.remove("animation");
+  }, 1000);
+}
