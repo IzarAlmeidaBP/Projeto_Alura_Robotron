@@ -10,36 +10,37 @@ const maxFoguetes = 28;
 
 const pecas = {
   bracos: {
-    forca: Math.round((29 / maxForca) * 100),
+    forca: Math.round((35 / maxForca) * 100),
     poder: 35,
-    energia: -21,
+    energia: -15,
     velocidade: -5,
   },
   blindagem: {
-    forca: Math.round((41 / maxBlindagem) * 100),
+    forca: Math.round((30 / maxBlindagem) * 100),
     poder: 20,
-    energia: 0,
+    energia: 10,
     velocidade: -20,
   },
   nucleos: {
-    forca: Math.round((48 / maxNucleos) * 100),
+    forca: Math.round((45 / maxNucleos) * 100),
     poder: 7,
     energia: 48,
     velocidade: -24,
   },
   pernas: {
-    forca: Math.round((27 / maxPernas) * 100),
+    forca: Math.round((30 / maxPernas) * 100),
     poder: 21,
-    energia: -32,
+    energia: -15,
     velocidade: 42,
   },
   foguetes: {
-    forca: Math.round((0 / maxFoguetes) * 100),
+    forca: Math.round((10 / maxFoguetes) * 100),
     poder: 28,
     energia: 0,
     velocidade: -2,
   },
 };
+
 
 
 controle.forEach((elemento) => {
