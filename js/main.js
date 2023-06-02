@@ -72,3 +72,16 @@ function addAnimation() {
     button.classList.remove("animation");
   }, 1000);
 }
+function atualizaEstatistica(peca) {
+  estatisticas.forEach((elemento) => {
+    const valorAtual = parseInt(elemento.textContent);
+    const valorPeca = pecas[peca][elemento.dataset.estatistica];
+    const novoValor = valorAtual + valorPeca;
+
+    if (novoValor >= 0) {
+      elemento.textContent = novoValor;
+    } else {
+      elemento.textContent = "0";
+    }
+  });
+}
